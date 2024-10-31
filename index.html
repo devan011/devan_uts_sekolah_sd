@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEKOLAH SD PONDOKCINA 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+</head>
+<body>
+    <header>
+        <h1>SEKOLAH SD PONDOKCINA 1</h1>
+        <nav>
+            <ul> 
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="gallery.html">Galeri</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Selamat Datang di Sekolah Kami!</h2>
+        <p>Kami menyediakan pendidikan berkualitas untuk generasi masa depan.</p>
+        <p class="mb-4">
+            SD Pondokcina 1 adalah salah satu sekolah dasar yang terletak di daerah Pondokcina, Depok. Sekolah ini dikenal memiliki lingkungan belajar yang kondusif dan fasilitas yang memadai untuk mendukung proses pendidikan siswa.
+            
+            Dengan kurikulum yang terintegrasi dan pendekatan yang berfokus pada pengembangan karakter, SD Pondokcina 1 berupaya memberikan pendidikan yang holistik. Para guru di sekolah ini biasanya berpengalaman dan berkomitmen untuk membantu siswa mencapai potensi terbaik mereka.</p>
+        
+        <div class="container-fluid p-0 mb-5">
+            <div class="slick-carousel">
+                <div class="carousel-item">
+                    <img class="img-fluid" src="img/img3.jpg" alt="Gambar 1">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid" src="img/img4.jpg" alt="Gambar 2">
+                </div>
+                <!-- Tambahkan gambar lain jika perlu -->
+            </div>
+        </div>
+        
+    </main>
+    
+    <footer>
+        <p>&copy;SEKOLAH SD PONDOKCINA 1</p>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slick-carousel').slick({
+                autoplay: true, // Mengaktifkan autoplay
+                autoplaySpeed: 2000, // Durasi tampil setiap slide (dalam ms)
+                dots: true, // Menampilkan indikator halaman
+                arrows: true, // Menampilkan tombol navigasi
+                speed: 200 // Durasi transisi antara slide
+            });
+        });
+    </script>
+</body>
+</html>
